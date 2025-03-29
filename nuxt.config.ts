@@ -1,4 +1,3 @@
-import Aura from '@primeuix/themes/aura'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
@@ -9,7 +8,6 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@pinia/nuxt',
-    '@primevue/nuxt-module',
   ],
   pinia: {
     storesDirs: ['./store/**'],
@@ -18,15 +16,4 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
   css: ['~/assets/styles/main.css'],
-  primevue: {
-    options: {
-      theme: {
-        preset: Aura,
-        cssLayer: {
-          name: 'primevue',
-          order: 'theme, base, primevue',
-        },
-      },
-    },
-  },
 })
