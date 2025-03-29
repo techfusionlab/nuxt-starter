@@ -1,75 +1,64 @@
-# Nuxt Minimal Starter
+# Nuxt TypeScript PrimeVue Starter Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<p align="center">
+  A feature-rich Nuxt 3 application starter template combined with modern frontend toolchain.
+</p>
 
-## Setup
+## ✨ Features
 
-Make sure to install dependencies:
+- 🚀 **[Nuxt 3](https://nuxt.com/)** - Full-stack framework for Vue 3
+- 🔧 **[TypeScript](https://www.typescriptlang.org/)** - Enhanced JavaScript with static type checking
+- 📦 **[Pinia](https://pinia.vuejs.org/)** - Intuitive state management for Vue
+- 🎨 **[TailwindCSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- 📝 **[ESLint](https://eslint.org/) + [@antfu/eslint-config](https://github.com/antfu/eslint-config)** - Code style standardization
+- 🌐 **[i18n](https://i18n.nuxtjs.org/)** - Internationalization support
+- 🧩 **[PrimeVue](https://primevue.org/)** - Feature-rich UI component library
+- 💫 **[Motion](https://motion.vueuse.org/)** - Vue animation library
+- 🎭 **[Lucide Vue Next](https://lucide.dev/)** - Beautiful icon library
+- 🎯 **[Sass](https://sass-lang.com/)** - CSS preprocessor
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+
+- pnpm 8+ (recommended)
+
+### Installation
 
 ```bash
-# npm
-npm install
+# Clone the project
+git clone https://github.com/techfusionlab/nuxt-starter.git
+cd nuxt-starter
 
-# pnpm
+# Install dependencies
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### Development
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
+# Start development server
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Visit http://localhost:3000 to view the application.
 
-Build the application for production:
+### Build
 
 ```bash
-# npm
-npm run build
-
-# pnpm
+# Production build
 pnpm build
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
+# Preview production build locally
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+## 📄 License
+
+[MIT](LICENSE)
+
