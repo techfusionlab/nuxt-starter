@@ -1,7 +1,17 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "nuxt-starter",
   "type": "module",
+  "private": true,
+  "description": "A modern Vue3 application template based on Nuxt, integrating TypeScript, Pinia, TailwindCSS, PrimeVue and other tools, providing internationalization support and animation effects, using Anthony Fu's ESLint configuration to ensure code quality.",
+  "author": "hixb <hellozxb252@gmail.com> (https://github.com/hixb/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techfusionlab/nuxt-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/techfusionlab/nuxt-starter/issues"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -20,5 +30,11 @@
     "@antfu/eslint-config": "^3.14.0",
     "@nuxt/eslint": "1.2.0",
     "eslint": "^9.0.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }
