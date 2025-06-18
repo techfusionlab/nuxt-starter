@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@nuxt/image": "1.10.0",
+    "@nuxtjs/color-mode": "3.5.2",
     "@nuxtjs/i18n": "^9.5.5",
     "nuxt": "^3.17.5",
     "vue": "^3.5.16",
@@ -38,5 +39,6 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
-  }
+  },
+  "packageManager": "pnpm@10.7.0+sha1.66453f13fbf9078d3db193718206a8d738afdbdb"
 }

@@ -4,10 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: [
-    '@nuxt/image',
-    '@nuxtjs/i18n',
-  ],
+  modules: ['@nuxt/image', '@nuxtjs/i18n', '@nuxtjs/color-mode'],
   vite: {
     plugins: [tailwindcss()],
   },
@@ -18,5 +15,9 @@ export default defineNuxtConfig({
       { code: 'en', name: 'English', language: 'en', file: 'en.json' },
       { code: 'zh', name: '中文', language: 'zh', file: 'zh.json' },
     ],
+  },
+  colorMode: {
+    classPrefix: '',
+    classSuffix: '',
   },
 })
