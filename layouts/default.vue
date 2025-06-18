@@ -1,0 +1,4 @@
+<template>
+  <BaseHeader />
+  <slot />
+</template>
