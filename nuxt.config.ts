@@ -4,7 +4,13 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/image', '@nuxtjs/i18n', '@nuxtjs/color-mode'],
+  modules: [
+    '@nuxt/image',
+    '@nuxtjs/i18n',
+    '@nuxtjs/color-mode',
+    'motion-v/nuxt',
+    '@vueuse/nuxt',
+  ],
   vite: {
     plugins: [tailwindcss()],
   },
